@@ -6,7 +6,7 @@ ctx4.moveTo(0, 0);
 ctx4.lineWidth = 8;
 var holding = false;
 
-btn3.addEventListener('click', btnClearEvent(ctx4));
+
 
 
 canvas4.addEventListener('mousedown', function (event) {
@@ -31,3 +31,5 @@ canvas4.addEventListener('mousemove', function (event) {
     ctx4.stroke();
   }
 })
+
+btn3.addEventListener('click', btnClearEvent(ctx4));
