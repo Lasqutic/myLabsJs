@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="..\css\style.css">
+    <script src="L4Task1.js" defer></script>
+    <script src="L4Task2.js" defer></script>
+    <script src="L4Task3.js" defer></script>
+
+
+
+    <title>Lab4</title>
+</head>
+
+
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="logo"> Shcherbin</div>
+                <nav class="nav">
+                    <a class="nav__link" href="../index.html">Lab 1</a>
+                    <a class="nav__link" href="../Lab2/lab2.html">Lab 2</a>
+                    <a class="nav__link" href="../Lab3/lab3.html">Lab 3</a>
+                    <a class="nav__link" href="lab4.html">Lab 4</a>
+                    <a class="nav__link" href="#">Lab 5</a>
+                    <a class="nav__link" href="#">Lab 6</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="intro">
+        <div class="container">
+            <h1 class="intro__title"> Лабораторная работа 4</h1>
+            <h2 class="less"> Задание 1</h2>
+            <h2>Создайте галерею изображений, с помощью canvas сделайте: </h2>
+            <ul>
+
+
+                <li>Возьмите изображение, обрежьте его, сделайте заготовку, чтоб использовать его как элемент рамки;
+                </li>
+                <li>Рамку каждому изображению по его размеру;</li>
+                <li>Подпись к изображению под рамкой, стилизуйте ее;</li>
+                <li>Добавить подписи тень.</li>
+                <div class="flex-div">
+                   
+                    <button class="button" id="btnLeft"><</button>
+                    <canvas class="cnv" id="canvas"></canvas>
+                    <button class="button" id="btnRight">></button>
+                   
+                </div>
+            </ul>
+
+
+
+
+            <h2 class="less"> Задание 2</h2>
+            <h2>C помощью canvas
+                сделайте:</h2>
+            <ul>
+
+
+                <li>График;</li>
+                <li>Круговую диаграмму.</li>
+                <div class="flex-div">
+                    <canvas class="cnv" id="c2"></canvas>
+                   
+                </div>
+
+            </ul>
+
+
+
+            <h2 class="less"> Задание 3</h2>
+            <h2>Создайте полотно canvas, цвет которого будет изменяться в зависимости от местоположения курсора в пределах элемента.</h2>
+
+            <div class="flex-div">
+                <canvas class="cnv" id="c3"></canvas>
+
+              
+
+            </div>
+
+            <h2 class="less"> Задание №4:</h2>
+            <p>Создать web-страницу с холстом 400x400 пикселей, позиционированным в правом верхнем углу окна браузера и рисунком, позиционированным по умолчанию. Обеспечить фон страницы, фон холста. При первом клике на рисунке его изображение должно появиться на холсте, где верхний левый угол изображения рисунка будет позиционирован в точке с координатами (50,50), а само изображение должно иметь размеры 200x150 пикселей. При последующих кликах на рисунке, его изображение на холсте должно смещаться на 10 пикселей по вертикали и на 20 пикселей по горизонтали, относительно его исходного положения. Воспользоваться методами drawImage() и translate() объекта Canvas. </p>
+
+            <div class="flex-div">
+                <canvas class="cnv" id="c4"></canvas>
+
+
+
+            </div>
+
+</body>
+
+</html>
