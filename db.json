@@ -1,66 +1,54 @@
 [
-{
-    "productPhoto": "https://solo.ua/upload/iblock/7c8/3uemn0pdjc9e2ea5xt4ecn33dwfmcpo3/b71dfbd0_2fb0_11ef_9b77_3cecef8ff173_ua.jpg",
-    "productCode": 9000110580011
-}
-,
-{
-    "productPhoto": "https://solo.ua/upload/iblock/105/7889s3dvdebvsk4daonss3dkz43aqdgv/b8a6f5b4_8211_11ee_818b_0cc47a064540_ua.jpg",
-    "productCode": 8006554020589
-}
-,
-{
-    "productPhoto": "https://solo.ua/upload/iblock/823/bbywuri63hrrlfa0lw0pyosfta2z7z10/53dd2d79_e043_11ee_9b70_3cecef8ff173_ua.jpg",
-    "productCode": 8006554020640
-}
-,
-{
-    "productPhoto": "https://solo.ua/upload/iblock/473/bd7e6u091imimgd6djmvz3zsqokfkvg8/53dd2d77_e043_11ee_9b70_3cecef8ff173_ua.jpg",
-    "productCode": 8006554020657
-}
-,
-{
-    "productPhoto": "https://solo.ua/upload/iblock/a4d/b9rij2cl0zud1hcl4934b2uisl4mlty0/4811b7d2_4bdc_11ee_8188_0cc47a064540_ua.jpg",
-    "productCode": 8006554020572
-}
-,
-{
-    "productPhoto": "https://solo.ua/upload/iblock/aaa/vhab07wd08z9tg0nbiie18zvquw8nw92/4811b7e2_4bdc_11ee_8188_0cc47a064540_ua.jpg",
-    "productCode": 8006554020046
-}
-,
-{
-    "productPhoto": "https://solo.ua/upload/iblock/912/3bq7t1swshf7o4wlr1kwqfnc08ry50f0/4811b7ca_4bdc_11ee_8188_0cc47a064540_ua.jpg",
-    "productCode": 8006554020596
-}
-,
-{
-    "productPhoto": "https://solo.ua/upload/iblock/c87/x2whwen5ork0rzwgrsa2ivygevg4gypv/4811b7de_4bdc_11ee_8188_0cc47a064540_ua.jpg",
-    "productCode": 8006554020008
-}
-,
-{
-    "productPhoto": "https://solo.ua/upload/iblock/dda/njgqzpzdy6vy4xoe0e87ykz45je1rz62/4811b7d8_4bdc_11ee_8188_0cc47a064540_ua.jpg",
-    "productCode": 8006554020268
-}
-,
-{
-    "productPhoto": "https://solo.ua/upload/iblock/26b/dtlwsos8nxpg3zadvhdaev40d9rj5qx8/8997304f_2d22_11ee_817c_0cc47a064540_ua.jpg",
-    "productCode": 8056684970063
-}
-,
-{
-    "productPhoto": "https://solo.ua/upload/iblock/9e7/l64kfsv40q472li4o2qpkl7rvoer6lxt/4811b7d4_4bdc_11ee_8188_0cc47a064540_ua.jpg",
-    "productCode": 8056684970223
-}
-,
-{
-    "productPhoto": "https://solo.ua/upload/iblock/fff/3m4gdwtnp10v7ap2rywdqvgxz0pkh6ka/4811b7d6_4bdc_11ee_8188_0cc47a064540_ua.jpg",
-    "productCode": 8006554020299
-}
-,
-{
-    "productPhoto": "https://solo.ua/upload/iblock/b76/ynn4i7u9lh4u96n93r2pdbxb3p7dec86/c10fdb72_3c68_11ef_9b7b_3cecef8ff173_ua.jpg",
-    "productCode": 8006029955402
-}
+    {
+        "productPhoto": "https://solo.ua/upload/iblock/7c8/3uemn0pdjc9e2ea5xt4ecn33dwfmcpo3/b71dfbd0_2fb0_11ef_9b77_3cecef8ff173_ua.jpg",
+        "productCode": 9000110580011
+    },
+    {
+        "productPhoto": "https://solo.ua/upload/iblock/105/7889s3dvdebvsk4daonss3dkz43aqdgv/b8a6f5b4_8211_11ee_818b_0cc47a064540_ua.jpg",
+        "productCode": 8006554020589
+    },
+    {
+        "productPhoto": "https://solo.ua/upload/iblock/823/bbywuri63hrrlfa0lw0pyosfta2z7z10/53dd2d79_e043_11ee_9b70_3cecef8ff173_ua.jpg",
+        "productCode": 8006554020640
+    },
+    {
+        "productPhoto": "https://solo.ua/upload/iblock/473/bd7e6u091imimgd6djmvz3zsqokfkvg8/53dd2d77_e043_11ee_9b70_3cecef8ff173_ua.jpg",
+        "productCode": 8006554020657
+    },
+    {
+        "productPhoto": "https://solo.ua/upload/iblock/a4d/b9rij2cl0zud1hcl4934b2uisl4mlty0/4811b7d2_4bdc_11ee_8188_0cc47a064540_ua.jpg",
+        "productCode": 8006554020572
+    },
+    {
+        "productPhoto": "https://solo.ua/upload/iblock/aaa/vhab07wd08z9tg0nbiie18zvquw8nw92/4811b7e2_4bdc_11ee_8188_0cc47a064540_ua.jpg",
+        "productCode": 8006554020046
+    },
+    {
+        "productPhoto": "https://solo.ua/upload/iblock/912/3bq7t1swshf7o4wlr1kwqfnc08ry50f0/4811b7ca_4bdc_11ee_8188_0cc47a064540_ua.jpg",
+        "productCode": 8006554020596
+    },
+    {
+        "productPhoto": "https://solo.ua/upload/iblock/c87/x2whwen5ork0rzwgrsa2ivygevg4gypv/4811b7de_4bdc_11ee_8188_0cc47a064540_ua.jpg",
+        "productCode": 8006554020008
+    },
+    {
+        "productPhoto": "https://solo.ua/upload/iblock/dda/njgqzpzdy6vy4xoe0e87ykz45je1rz62/4811b7d8_4bdc_11ee_8188_0cc47a064540_ua.jpg",
+        "productCode": 8006554020268
+    },
+    {
+        "productPhoto": "https://solo.ua/upload/iblock/26b/dtlwsos8nxpg3zadvhdaev40d9rj5qx8/8997304f_2d22_11ee_817c_0cc47a064540_ua.jpg",
+        "productCode": 8056684970063
+    },
+    {
+        "productPhoto": "https://solo.ua/upload/iblock/9e7/l64kfsv40q472li4o2qpkl7rvoer6lxt/4811b7d4_4bdc_11ee_8188_0cc47a064540_ua.jpg",
+        "productCode": 8056684970223
+    },
+    {
+        "productPhoto": "https://solo.ua/upload/iblock/fff/3m4gdwtnp10v7ap2rywdqvgxz0pkh6ka/4811b7d6_4bdc_11ee_8188_0cc47a064540_ua.jpg",
+        "productCode": 8006554020299
+    },
+    {
+        "productPhoto": "https://solo.ua/upload/iblock/b76/ynn4i7u9lh4u96n93r2pdbxb3p7dec86/c10fdb72_3c68_11ef_9b7b_3cecef8ff173_ua.jpg",
+        "productCode": 8006029955402
+    }
 ]
