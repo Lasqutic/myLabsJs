@@ -44,7 +44,7 @@ h1 {
     overflow: hidden;
 }
 
-video#scanner {
+#scanner {
     width: 100%;
     height: auto;
 }
