@@ -1,4 +1,4 @@
- document.getElementById('scanButton').addEventListener('click', function() {
+document.getElementById('scanButton').addEventListener('click', function () {
     const scannerContainer = document.getElementById('scanner-container');
     const scanner = document.getElementById('scanner');
     const barcodeResult = document.getElementById('barcodeResult');
@@ -25,21 +25,22 @@
             right: "20%",  // right offset
             left: "20%",   // left offset
             bottom: "20%"  // bottom offset
-  },
-  singleChannel: false // true: only the red color-channel is read
-}
-    }, function(err) {
-        if (err) {
-            console.error(err);
-            return;
-        }
+        },
+        singleChannel: false // true: only the red color-channel is read
+    },
+        function (err) {
+            if (err) {
+                console.error(err);
+                alert("Ошибка инициализации: " + err.name + " - " + err.message);
+                return;
+            }
 
-        console.log("Инициализация завершена. Готов к сканированию");
-        Quagga.start();
-    });
+            console.log("Инициализация завершена. Готов к сканированию");
+            Quagga.start();
+        });
 
     // Обработка найденного штрих-кода
-    Quagga.onDetected(function(data) {
+    Quagga.onDetected(function (data) {
         const code = data.codeResult.code;
         barcodeResult.textContent = code;
 
@@ -47,5 +48,6 @@
         Quagga.stop();
         scannerContainer.style.display = 'none';
     });
-}); 
+});
+
 
