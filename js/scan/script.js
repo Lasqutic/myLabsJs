@@ -12,8 +12,8 @@ document.getElementById('scanButton').addEventListener('click', function () {
             type: "LiveStream",
             target: scanner, // сюда будет выводиться видео
             constraints: {
-                width: 300,  // Ограничение ширины видеопотока
-                height: 300, // Ограничение высоты видеопотока 
+               /*  width: 300,  // Ограничение ширины видеопотока
+                height: 300, // Ограничение высоты видеопотока  */
                 facingMode: "environment" // использовать заднюю камеру
             }
         },
