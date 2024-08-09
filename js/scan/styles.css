@@ -34,7 +34,7 @@ h1 {
 }
 
 #scanner-container {
-    display: none;
+    display: block;
     position: relative;
     width: 100%;
     max-width: 200px;
