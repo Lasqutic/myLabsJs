@@ -21,10 +21,10 @@ document.getElementById('scanButton').addEventListener('click', function () {
             readers: ["ean_reader"] // Используемый декодер для штрих-кодов EAN
         },
         area: { // defines rectangle of the detection/localization area
-            top: "20%",    // top offset
-            right: "20%",  // right offset
-            left: "20%",   // left offset
-            bottom: "20%"  // bottom offset
+            top: "0%",    // top offset
+            right: "0%",  // right offset
+            left: "0%",   // left offset
+            bottom: "0%"  // bottom offset
         },
         singleChannel: false // true: only the red color-channel is read
     },
