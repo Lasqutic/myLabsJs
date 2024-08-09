@@ -12,6 +12,8 @@
             type: "LiveStream",
             target: scanner, // сюда будет выводиться видео
             constraints: {
+                width: 200,  // Ограничение ширины видеопотока
+                height: 100, // Ограничение высоты видеопотока
                 facingMode: "environment" // использовать заднюю камеру
             }
         },
