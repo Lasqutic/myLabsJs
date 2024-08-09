@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barcode Scanner</title>
+    <style>
+        #scanner-container {
+            display: none;
+            width: 640px;
+            height: 480px;
+            border: 1px solid black;
+        }
+        #scanner {
+            width: 100%;
+            height: 100%;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <button id="scanButton">Start Scan</button>
+    <div id="scanner-container">
+        <div id="scanner"></div>
+    </div>
+    <p>Scanned Barcode: <span id="barcodeResult"></span></p>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/quagga/0.12.1/quagga.min.js"></script>
+    <script>
+        document.getElementById('scanButton').addEventListener('click', function() {
+            const scannerContainer = document.getElementById('scanner-container');
+            const scanner = document.getElementById('scanner');
+            const barcodeResult = document.getElementById('barcodeResult');
+
+            // Показать контейнер для сканера
+            scannerContainer.style.display = 'block';
+
+            Quagga.init({
+                inputStream: {
+                    name: "Live",
+                    type: "LiveStream",
+                    target: scanner, // сюда будет выводиться видео
+                    constraints: {
+                        facingMode: "environment" // использовать заднюю камеру
+                    }
+                },
+                decoder: {
+                    readers: ["ean_reader"] // Используемый декодер для штрих-кодов EAN
+                }
+            }, function(err) {
+                if (err) {
+                    console.error("Ошибка инициализации: ", err);
+                    alert("Ошибка инициализации: " + err.name + " - " + err.message);
+                    return;
+                }
+
+                console.log("Инициализация завершена. Готов к сканированию");
+                Quagga.start();
+            });
+
+            // Обработка найденного штрих-кода
+            Quagga.onDetected(function(data) {
+                const code = data.codeResult.code;
+                barcodeResult.textContent = code;
+
+                // Остановить сканирование после успешного распознавания
+                Quagga.stop();
+                scannerContainer.style.display = 'none';
+            });
+        });
+    </script>
+</body>
+</html>
