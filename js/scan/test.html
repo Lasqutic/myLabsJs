@@ -7,8 +7,8 @@
     <style>
         #scanner-container {
             display: none;
-            width: 500px;
-            height: 500px;
+            width: 450px;
+            height: 200px;
             border: 1px solid black;
         }
         #scanner {
@@ -41,8 +41,6 @@
                     type: "LiveStream",
                     target: scanner, // сюда будет выводиться видео
                     constraints: {
-                        width: 100,  // Ограничение ширины видеопотока
-                        height: 300, // Ограничение высоты видеопотока
                         facingMode: "environment" // использовать заднюю камеру
                     }
                 },
