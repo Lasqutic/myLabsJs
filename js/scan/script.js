@@ -12,14 +12,22 @@
             type: "LiveStream",
             target: scanner, // сюда будет выводиться видео
             constraints: {
-               /*  width: 100,  // Ограничение ширины видеопотока
-                height: 200, // Ограничение высоты видеопотока */
+                width: 300,  // Ограничение ширины видеопотока
+                height: 300, // Ограничение высоты видеопотока 
                 facingMode: "environment" // использовать заднюю камеру
             }
         },
         decoder: {
             readers: ["ean_reader"] // Используемый декодер для штрих-кодов EAN
-        }
+        },
+        area: { // defines rectangle of the detection/localization area
+            top: "20%",    // top offset
+            right: "20%",  // right offset
+            left: "20%",   // left offset
+            bottom: "20%"  // bottom offset
+  },
+  singleChannel: false // true: only the red color-channel is read
+}
     }, function(err) {
         if (err) {
             console.error(err);
