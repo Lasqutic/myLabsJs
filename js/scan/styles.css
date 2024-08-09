@@ -44,11 +44,11 @@ h1 {
     overflow: hidden;
 }
 
-#scanner {
+/* #scanner {
     width: 100%;
     height: auto;
 }
-
+ */
 p {
     font-size: 18px;
 }
